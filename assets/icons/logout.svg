@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="logout" transform="translate(-364 -444)">
+    <g id="Group_650" data-name="Group 650">
+      <path id="Vector" d="M0,5.12,2.56,2.56,0,0" transform="translate(381.439 453.5)" fill="none" stroke="#055cf2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M0,0H10.17" transform="translate(373.76 456.06)" fill="none" stroke="#055cf2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <path id="Vector-3" data-name="Vector" d="M8,16A7.651,7.651,0,0,1,0,8,7.651,7.651,0,0,1,8,0" transform="translate(367.76 448)" fill="none" stroke="#055cf2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(388 468) rotate(180)" fill="none" opacity="0"/>
+  </g>
+</svg>

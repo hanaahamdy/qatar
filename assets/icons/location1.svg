@@ -1,0 +1,5 @@
+<svg id="location" xmlns="http://www.w3.org/2000/svg" width="40.5" height="40.5" viewBox="0 0 40.5 40.5">
+  <path id="Vector" d="M29.531,11.306C27.759,3.51,20.959,0,14.985,0h-.017C9.011,0,2.194,3.493.422,11.289-1.553,20,3.78,27.371,8.606,32.012a9.15,9.15,0,0,0,12.741,0C26.173,27.371,31.506,20.014,29.531,11.306ZM14.985,19.761A5.316,5.316,0,1,1,20.3,14.445,5.315,5.315,0,0,1,14.985,19.761Z" transform="translate(5.265 2.953)" fill="#055cf2"/>
+  <path id="Vector-2" data-name="Vector" d="M0,0H40.5V40.5H0Z" transform="translate(0 0)" fill="none" opacity="0"/>
+  <path id="Vector-3" data-name="Vector" d="M0,0H40.5V40.5H0Z" transform="translate(40.5 40.5) rotate(180)" fill="none" opacity="0"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70.093" viewBox="0 0 70 70.093">
+  <g id="delete_project" transform="translate(-152.5 -574)">
+    <g id="Group_867" data-name="Group 867" transform="translate(5.5 104)">
+      <g id="check" transform="translate(147 470)">
+        <g id="checked_1_" data-name="checked (1)" transform="translate(0 0)">
+          <path id="Path_1350" data-name="Path 1350" d="M62.662,64.1c-10.725,8.755-44.215,8.755-54.722,0-10.725-8.755-9.631-46.185,0-56.035s45.091-9.85,54.722,0S73.387,55.342,62.662,64.1Z" transform="translate(-0.301 -0.571)" fill="#055cf2"/>
+          <g id="Group_299" data-name="Group 299" transform="translate(0.032 0)">
+            <path id="Path_1351" data-name="Path 1351" d="M35.7,48.2c-9.631,7.661-20.356,11.6-30.425,11.82-7.442-12.7-5.91-43.558,2.846-52.533C16-.607,40.731-2.139,54.958,2.9,58.46,17.342,51.237,35.728,35.7,48.2Z" transform="translate(-0.509 0)" fill="#055cf2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_866" data-name="Group 866" transform="translate(104.185 441)">
+      <g id="vuesax_outline_trash" data-name="vuesax/outline/trash" transform="translate(63.315 147)">
+        <g id="trash" transform="translate(0)">
+          <path id="Vector" d="M30.251,3.462h-.129A119.373,119.373,0,0,0,4.635,3.119l-3.291.344A1.241,1.241,0,0,1,.006,2.294,1.261,1.261,0,0,1,1.087.886L4.377.542A122.96,122.96,0,0,1,30.364.886a1.271,1.271,0,0,1,1.081,1.409A1.227,1.227,0,0,1,30.251,3.462Z" transform="translate(3.859 8.098)" fill="#fff"/>
+          <path id="Vector-2" data-name="Vector" d="M1.29,7.678a1.057,1.057,0,0,1-.223-.017A1.293,1.293,0,0,1,.018,6.184L.4,3.934C.671,2.285,1.049,0,5.051,0h4.5c4.02,0,4.4,2.371,4.655,3.951l.378,2.233a1.281,1.281,0,1,1-2.525.429L11.682,4.38c-.24-1.494-.292-1.786-2.113-1.786h-4.5c-1.821,0-1.855.24-2.113,1.769L2.561,6.6A1.289,1.289,0,0,1,1.29,7.678Z" transform="translate(12.291 2.147)" fill="#fff"/>
+          <path id="Vector-3" data-name="Vector" d="M17.121,24.669H6.955c-5.526,0-5.748-3.315-5.922-5.995L0,1.376A1.269,1.269,0,0,1,1.112,0,1.238,1.238,0,0,1,2.378,1.2L3.408,18.5c.174,2.611.238,3.59,3.547,3.59H17.121c3.325,0,3.389-.979,3.547-3.59L21.7,1.2a1.195,1.195,0,1,1,2.375.172l-1.029,17.3C22.869,21.353,22.647,24.669,17.121,24.669Z" transform="translate(7.555 14.41)" fill="#fff"/>
+          <path id="Vector-4" data-name="Vector" d="M7.008,2.577H1.288A1.3,1.3,0,0,1,0,1.288,1.3,1.3,0,0,1,1.288,0h5.72A1.3,1.3,0,0,1,8.3,1.288,1.3,1.3,0,0,1,7.008,2.577Z" transform="translate(15.436 27.055)" fill="#fff"/>
+          <path id="Vector-5" data-name="Vector" d="M9.877,2.577H1.288A1.3,1.3,0,0,1,0,1.288,1.3,1.3,0,0,1,1.288,0H9.877a1.3,1.3,0,0,1,1.288,1.288A1.3,1.3,0,0,1,9.877,2.577Z" transform="translate(14.01 20.184)" fill="#fff"/>
+          <path id="Vector-6" data-name="Vector" d="M0,0H39.185V41.226H0Z" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
