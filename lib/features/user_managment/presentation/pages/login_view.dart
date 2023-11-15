@@ -9,8 +9,8 @@ import 'package:geocoding/geocoding.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:retrofit/retrofit.dart';
-import 'package:the_apple_sign_in/apple_sign_in_button.dart';
-import 'package:the_apple_sign_in/the_apple_sign_in.dart';
+// import 'package:the_apple_sign_in/apple_sign_in_button.dart';
+// import 'package:the_apple_sign_in/the_apple_sign_in.dart';
 import '../../../../core/di/di.dart';
 import '../../../../core/resources/assets_manager.dart';
 import '../../../../core/resources/color_manager.dart';
@@ -66,12 +66,12 @@ class _LoginScreenState extends State<LoginScreen> {
 
   getRemember() async {
     var value = await locator<AppPreferences>().getUser();
-    bool avaiable  = await TheAppleSignIn.isAvailable();
+    // bool avaiable  = await TheAppleSignIn.isAvailable();
     if (value.isNotEmpty) {
       setState(() {
         _userEmailController.text = value["phone"];
         _userPasswordController.text = value["password"];
-        _isAvailableFuture = avaiable;
+        // _isAvailableFuture = avaiable;
       });
     }
   }
@@ -227,32 +227,32 @@ class _LoginScreenState extends State<LoginScreen> {
                     child: font16Text('تسجيل دخول',
                         color: ColorManager.white,
                         fontWeight: FontWeight.bold)),
-                heightSpace(25.h),
-                Platform.isAndroid ? Container(): _buildOrWidget(),
-                heightSpace(25.h),
-                Platform.isAndroid ? Container(): BlocListener<SocialBloc, SocilaState>(
-                  bloc: _socialBloc,
-                  listener: (_, state){
-                    if(state is SocilaSuccess){
-                      Get.back();
-                      Get.offAll(ServicesPage());
-                    }
-                    else if(state is SocilaLoading){
-                      showMyDialog(context);
-                    }
-                    else if(state is SocialFailure){
-                      Get.back();
-                      showFailureDialoge(context, state.error!.message!);
-                    }
-                  },
-                  child: AppleSignInButton(
-                    style: stp.ButtonStyle.black, // style as needed
-                    type: ButtonType.signIn, // style as needed
-                    onPressed: () async{
-                      _socialBloc.add(SocialEvent(context: context, type: ""));
-                    },
-                  ),
-                ),
+                // heightSpace(25.h),
+                // Platform.isAndroid ? Container(): _buildOrWidget(),
+                // heightSpace(25.h),
+                // Platform.isAndroid ? Container(): BlocListener<SocialBloc, SocilaState>(
+                //   bloc: _socialBloc,
+                //   listener: (_, state){
+                //     if(state is SocilaSuccess){
+                //       Get.back();
+                //       Get.offAll(ServicesPage());
+                //     }
+                //     else if(state is SocilaLoading){
+                //       showMyDialog(context);
+                //     }
+                //     else if(state is SocialFailure){
+                //       Get.back();
+                //       showFailureDialoge(context, state.error!.message!);
+                //     }
+                //   },
+                //   child: AppleSignInButton(
+                //     style: stp.ButtonStyle.black, // style as needed
+                //     type: ButtonType.signIn, // style as needed
+                //     onPressed: () async{
+                //       _socialBloc.add(SocialEvent(context: context, type: ""));
+                //     },
+                //   ),
+                // ),
                 heightSpace(10.h),
                 // BlocListener<LocalAuthBloc, LocalAuthState>(
                 //     bloc: _localAuthBloc,

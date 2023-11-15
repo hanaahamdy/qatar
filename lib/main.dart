@@ -22,7 +22,7 @@ void main() async {
 
   WidgetsFlutterBinding.ensureInitialized();
   if(Platform.isIOS){
-    await Firebase.initializeApp();
+    // await Firebase.initializeApp();
   }
 
   await initAppModule();
