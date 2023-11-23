@@ -203,8 +203,8 @@ showFailureDialoge(BuildContext context, message) {
     dialogType: DialogType.error,
     animType: AnimType.rightSlide,
     title: 'Failure',
-    desc: message,
+    desc: 'يرجى التأكد من البيانات المدخلة',
     btnCancelOnPress: () {},
     btnOkOnPress: () {},
-  )..show();
+  ).show();
 }

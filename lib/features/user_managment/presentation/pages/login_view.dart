@@ -1,3 +1,4 @@
+import 'dart:developer';
 
 import 'package:dio/dio.dart';
 import 'package:ehsan_1/core/utils/extensions.dart';
@@ -24,7 +25,7 @@ import '../../../../core/utils/app_prefs.dart';
 import '../../../../core/utils/functions.dart';
 import '../../../../core/utils/texts.dart';
 import '../../../services/presentation/bloc/add_service_bloc.dart';
-import '../../../services/presentation/pages/services_page.dart';//
+import '../../../services/presentation/pages/services_page.dart'; //
 import '../../data/api_requests/social_register_request.dart';
 import '../../domain/repository/user_managment_repository.dart';
 import '../../domain/usecase/social_register_usecase.dart';
@@ -53,7 +54,7 @@ class _LoginScreenState extends State<LoginScreen> {
   final _bloc = LoginBloc();
   final SocialBloc _socialBloc = SocialBloc();
 
- bool _isAvailableFuture = false;
+  bool _isAvailableFuture = false;
 
   // final FaceBloc _faceBloc = FaceBloc();
   // final LocalAuthBloc _localAuthBloc = LocalAuthBloc();
