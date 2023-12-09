@@ -70,8 +70,6 @@ class _BidsDetailsPageState extends State<BidsDetailsPage> {
           bloc: _bloc,
           builder: (_, state) {
             if (state is ServicesSuccess) {
-
-
               return Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
@@ -147,116 +145,86 @@ class _BidsDetailsPageState extends State<BidsDetailsPage> {
                                         fontWeight: FontWeight.bold),
                                     heightSpace(16.h),
                                     Wrap(
-                                     spacing: 3,
                                       // mainAxisAlignment:
                                       //     MainAxisAlignment.spaceBetween,
                                       // crossAxisAlignment:
                                       //     CrossAxisAlignment.center,
                                       children: [
-                                        state.data.whatsapp == null
-                                            ? const SizedBox()
-                                            : ConnectWidget(
-                                                type: 'whats',
-                                                text: 'ارسال طلب',
-                                                icon: ImageAssets.whats,
-                                                launcher: state.data.whatsapp),
-                                        VerticalDivider(
-                                          color: Colors.black12,
-                                          thickness: 4.w,
-                                        ),
-                                        state.data.phone == null
-                                            ? const SizedBox()
-                                            : ConnectWidget(
-                                                type: 'call',
-                                                text: 'اتصال',
-                                                icon: ImageAssets.call,
-                                                launcher: state.data.phone,
-                                              ),
-                                        VerticalDivider(
-                                          color: Colors.black12,
-                                          thickness: 4.w,
-                                        ),
-                                        state.data.email == null
-                                            ? const SizedBox()
-                                            : ConnectWidget(
-                                                type: 'mail',
-                                                text: 'البريد',
-                                                icon: ImageAssets.mail,
-                                                svg: true,
-                                                launcher: state.data.email),
-                                        VerticalDivider(
-                                          color: Colors.black12,
-                                          thickness: 4.w,
-                                        ),
-                                        state.data.website == null
-                                            ? const SizedBox()
-                                            : ConnectWidget(
-                                                type: 'web',
-                                                text: 'الموقع',
-                                                icon: ImageAssets.website,
-                                                launcher: state.data.website)
+                                        if (state.data.whatsapp != null)
+                                          ConnectWidget(
+                                              type: 'whats',
+                                              text: 'ارسال طلب',
+                                              icon: ImageAssets.whats,
+                                              launcher: state.data.whatsapp),
+                                        if (state.data.phone != null)
+                                          ConnectWidget(
+                                            type: 'call',
+                                            text: 'اتصال',
+                                            icon: ImageAssets.call,
+                                            launcher: state.data.phone,
+                                          ),
+                                        if (state.data.email != null)
+                                          ConnectWidget(
+                                              type: 'mail',
+                                              text: 'البريد',
+                                              icon: ImageAssets.email,
+                                              launcher: state.data.email),
+                                        if (state.data.website != null)
+                                          ConnectWidget(
+                                              type: 'web',
+                                              text: 'الموقع',
+                                              icon: ImageAssets.website,
+                                              launcher: state.data.website)
+
                                         // state.data.linkdin
                                         ,
+                                        if (state.data.linkedin != null)
+                                          ConnectWidget(
+                                            launcher: state.data.linkedin,
+                                            type: 'linkedin',
+                                            text: 'لينكد ان',
+                                            icon: ImageAssets.linkdin,
+                                          ),
+                                        if (state.data.youtube != null)
+                                          ConnectWidget(
+                                            launcher: state.data.youtube,
+                                            type: 'youtube',
+                                            text: 'يوتيوب',
+                                            icon: ImageAssets.youtube,
+                                          ),
                                         VerticalDivider(
                                           color: Colors.black12,
                                           thickness: 5.w,
                                         ),
-                                        state.data.linkedin == null
-                                            ? const SizedBox()
-                                            : ConnectWidget(
-                                                launcher: state.data.linkedin,
-                                                type: 'linkedin',
-                                                text: 'لينكد ان',
-                                                icon: ImageAssets.linkdin,
-                                              ),
-                                        VerticalDivider(
-                                          color: Colors.black12,
-                                          thickness: 5.w,
-                                        ),
-                                        state.data.youtube == null
-                                            ? const SizedBox()
-                                            : ConnectWidget(
-                                                launcher: state.data.youtube,
-                                                type: 'youtube',
-                                                text: 'يوتيوب',
-                                                icon: ImageAssets.youtube,
-                                              ),
-                                        VerticalDivider(
-                                          color: Colors.black12,
-                                          thickness: 5.w,
-                                        ),
-                                        state.data.facebook == null
-                                            ? const SizedBox()
-                                            : ConnectWidget(
-                                                launcher: state.data.facebook,
-                                                type: 'facebook',
-                                                text: 'فيسبوك',
-                                                icon: ImageAssets.facebook1,
-                                              ),
+                                        if (state.data.facebook != null)
+                                          ConnectWidget(
+                                            launcher: state.data.facebook,
+                                            type: 'facebook',
+                                            text: 'فيسبوك',
+                                            icon: ImageAssets.facebook1,
+                                          ),
                                         VerticalDivider(
                                           color: Colors.black12,
                                           thickness: 3.w,
                                         ),
-                                        state.data.instagram == null
-                                            ? const SizedBox()
-                                            : ConnectWidget(
-                                                launcher: state.data.instagram,
-                                                type: 'instagram',
-                                                text: 'انستجرام',
-                                                icon: ImageAssets.instgram,
-                                              ),
+                                        if (state.data.instagram != null)
+                                          ConnectWidget(
+                                            launcher: state.data.instagram,
+                                            type: 'instagram',
+                                            text: 'انستجرام',
+                                            icon: ImageAssets.instgram,
+                                          ),
                                         VerticalDivider(
                                           color: Colors.black12,
                                           thickness: 3.w,
                                         ),
-                                        state.data.twitter == null
-                                            ? const SizedBox()
-                                            : ConnectWidget(
-                                                launcher: state.data.twitter,
-                                                type: 'twitter',
-                                                text: 'تويتر',
-                                                icon: ImageAssets.twitter,
-                                              )
+                                        if (state.data.twitter != null)
+                                          ConnectWidget(
+                                            launcher: state.data.twitter,
+                                            type: 'twitter',
+                                            text: 'تويتر',
+                                            icon: ImageAssets.twitter,
+                                          )
                                       ],
                                     ),
                                   ],

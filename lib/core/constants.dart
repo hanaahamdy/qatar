@@ -20,7 +20,7 @@ const HEADER_CONTENT_TYPE = 'Content-Type';
 const HEADER_ACCEPT = 'Accept';
 
 // ====================  APP_NAME API URL ====================
-const API_BASE = 'https://molhem.online/api';
+const API_BASE = 'https://qatarproduct.online/api';
 //==========================
 //   User Management API
 //==========================

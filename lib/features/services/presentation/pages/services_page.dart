@@ -257,7 +257,7 @@ class _ServicesPageState extends State<ServicesPage> {
               Align(
                   alignment: Alignment.center,
                   child: font16Text(
-                    'ملهم',
+                "منتج قطري",
                     fontWeight: FontWeight.bold,
                   )),
               Align(

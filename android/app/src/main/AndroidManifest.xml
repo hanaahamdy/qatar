@@ -1,7 +1,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.molhem_1">
+    package="com.app.qatar">
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="tel" />
+        </intent>
+
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
    <application
-        android:label="molhem"
+        android:label="منتج قطري"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

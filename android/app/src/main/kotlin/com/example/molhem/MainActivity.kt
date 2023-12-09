@@ -1,4 +1,4 @@
-package com.app.molhem_1
+package com.app.qatar
 
 import io.flutter.embedding.android.FlutterActivity
 
